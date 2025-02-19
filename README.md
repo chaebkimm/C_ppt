@@ -151,3 +151,41 @@ int main() {
   
 </details>
 
+#### 1.3 조금 더 복잡한 C 프로그램: printf 써보기
+
+1.3.1 코드 설명
+
+<details>
+  <summary> 1.3.1.1 코드에서 쓰인 단어 </summary>  
+<br>
+
+1.3.1.1.1 #include  
+
+1.3.1.1.2 < >
+
+1.3.1.1.3 stdio.h
+
+1.3.1.1.4 printf
+
+1.3.1.1.5 " "
+  
+</details> 
+
+<details>
+  <summary> 1.3.1.2 코드에서 쓰인 문법 </summary> 
+<br>
+
+1.3.1.2.1 #include <stdio.h>
+
+1.3.1.2.2 printf("Hello world");
+  
+</details>
+
+<details>
+  <summary> 1.3.1.3 전체 코드 </summary>
+
+```c
+#include <s
+```
+</details>
+
