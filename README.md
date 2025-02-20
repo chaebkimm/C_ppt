@@ -500,8 +500,24 @@ int main() {
 <br>
 
 ```assembly
-저장  레지스터A  0
-종료
+main
+1: 저장  저장소A  0
+2: 반환
+```
+  
+</details>
+
+<details open>
+  <summary> 1.2.3.3 return five() 프로그램의 어셈블리 </summary>
+<br>
+
+```assembly
+main
+1: 실행  3
+2: 반환
+five
+3: 저장  저장소A  5  
+4: 반환
 ```
   
 </details>
