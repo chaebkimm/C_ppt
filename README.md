@@ -495,11 +495,11 @@ int main() {
   
 </details>
 
-<details>
+<details open>
   <summary> 1.2.3.2 return 0 프로그램의 어셈블리 </summary>
 <br>
 
-```
+```assembly
 저장  레지스터A  0
 종료
 ```
