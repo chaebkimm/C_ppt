@@ -38,7 +38,7 @@
 
 </details>
 
-<details>
+<details open>
   <summary> 1.1.1.1.3 전체 코드 </summary>
 <br>
 
@@ -104,7 +104,7 @@ int main() {
 
 </details> 
 
-<details>
+<details open>
   <summary> 1.1.2.1.3 전체 코드 </summary>
 <br>
 
@@ -170,7 +170,7 @@ int main() {
   
 </details> 
 
-<details>
+<details open>
   <summary> 1.1.3.1.3 전체 코드 </summary>
 <br>
 
@@ -211,26 +211,26 @@ int main() {
 
 </details>
 
-### 1.1.3 소스 파일이 분리된 C 프로그램: 함수 선언하기
+### 1.1.4 소스 파일이 분리된 C 프로그램: 함수 선언하기
 
-1.1.3.1 코드 설명
+1.1.4.1 코드 설명
 
 <details>
-  <summary> 1.1.3.1.1 문법 </summary>
+  <summary> 1.1.4.1.1 문법 </summary>
 <br>
 
-1.1.3.1.1.1 int five();
+1.1.4.1.1.1 int five();
 
 </details> 
 
 <details>
-  <summary> 1.1.3.1.2 코드에서 새로 쓰인 단어 없음 </summary>
+  <summary> 1.1.4.1.2 코드에서 새로 쓰인 단어 없음 </summary>
 <br>
 
 </details> 
 
-<details>
-  <summary> 1.1.3.1.3 전체 코드 </summary>
+<details open>
+  <summary> 1.1.4.1.3 전체 코드 </summary>
 <br>
 
 소스 파일 1
@@ -262,38 +262,38 @@ gcc five.c main.c -o ex1.1.3.exe
 ```
 </details> 
 
-#### 1.1.4 조금 더 복잡한 C 프로그램: printf 써보기
+#### 1.1.5 조금 더 복잡한 C 프로그램: printf 써보기
 
-1.1.3.1 코드 설명
+1.1.5.1 코드 설명
 
 <details>
-  <summary> 1.3.1.2 코드에서 쓰인 문법 </summary> 
+  <summary> 1.1.5.1.1 코드에서 쓰인 문법 </summary> 
 <br>
 
-1.3.1.2.1 #include <stdio.h>
+1.1.5.1.1.1 #include <stdio.h>
 
-1.3.1.2.2 printf("Hello, world!");
+1.1.5.1.1.2 printf("Hello, world!");
   
 </details>
 
 <details>
-  <summary> 1.1.3.1.1 코드에서 쓰인 단어 </summary>
+  <summary> 1.1.5.1.2 코드에서 쓰인 단어 </summary>
 <br>
 
-1.1.3.1.1.1 #include  
+1.1.5.1.2.1 #include  
 
-1.1.3.1.1.2 < >
+1.1.5.1.2.2 < >
 
-1.1.3.1.1.3 stdio.h
+1.1.5.1.2.3 stdio.h
 
-1.1.3.1.1.4 printf
+1.1.5.1.2.4 printf
 
-1.1.3.1.1.5 " "
+1.1.5.1.2.5 " "
   
 </details> 
 
-<details>
-  <summary> 1.3.1.3 전체 코드 </summary>
+<details open>
+  <summary> 1.1.5.1.3 전체 코드 </summary>
 
 ```c
 #include <stdio.h>
