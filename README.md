@@ -14,10 +14,12 @@
 
 1.1.1.1.1.2 반환 문장: return 0;
 
+1.1.1.1.1.3 값: 0
+
 </details>
 
 <details>
-  <summary> 1.1.1.1.2 단어: int, main, ( ), { }, return, 0, ; </summary>
+  <summary> 1.1.1.1.2 단어: int, main, (, ), {, }, return, 0, ; </summary>
 <br>
 
 1.1.1.1.2.1 int
@@ -85,22 +87,22 @@ int main() {
 1.1.2.1 코드 설명
 
 <details>
-  <summary> 1.1.2.1.1 코드에서 새로 쓰인 문법 </summary>
+  <summary> 1.1.2.1.1 문법: 주석, 함수 실행 </summary>
 <br>
 
-1.1.2.1.1.1 /*  */
+1.1.2.1.1.1 주석: /*  */
 
 1.1.2.1.1.2 five()
 
 </details> 
 
 <details>
-  <summary> 1.1.2.1.2 코드에서 새로 쓰인 단어 </summary>
+  <summary> 1.1.2.1.2 단어: /*, */, 이름 </summary>
 <br>
 
 1.1.2.1.2.1 /*  */
 
-1.1.2.1.2.2 five
+1.1.2.1.2.2 이름
   
 </details> 
 
