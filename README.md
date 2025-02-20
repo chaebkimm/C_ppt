@@ -80,6 +80,92 @@ int main() {
   
 </details>
 
+
+
+#### 1.3 함수 두개로 만든 C 프로그램: 함수 호출 해보기
+
+1.3.1 코드 설명
+
+<details>
+  <summary> 1.3.1.1 코드에서 새로 쓰인 단어 </summary>
+<br>
+
+1.3.1.1.1 /*  */
+
+1.3.1.1.2 five
+  
+</details> 
+
+<details>
+  <summary> 1.3.1.2 코드에서 새로 쓰인 문법 </summary>
+<br>
+
+1.3.1.1.1 /*  */
+
+1.3.1.1.2 five()
+
+
+
+</details> 
+
+
+<details>
+  <summary> 1.3.1.3 전체 코드 </summary>
+<br>
+
+```c
+int five() {
+  return 5;
+}
+
+int main() {
+  return five();
+}
+```  
+</details> 
+
+
+#### 1.3 조금 더 복잡한 C 프로그램: printf 써보기
+
+1.3.1 코드 설명
+
+<details>
+  <summary> 1.3.1.1 코드에서 쓰인 단어 </summary>  
+<br>
+
+1.3.1.1.1 #include  
+
+1.3.1.1.2 < >
+
+1.3.1.1.3 stdio.h
+
+1.3.1.1.4 printf
+
+1.3.1.1.5 " "
+  
+</details> 
+
+<details>
+  <summary> 1.3.1.2 코드에서 쓰인 문법 </summary> 
+<br>
+
+1.3.1.2.1 #include <stdio.h>
+
+1.3.1.2.2 printf("Hello, world!");
+  
+</details>
+
+<details>
+  <summary> 1.3.1.3 전체 코드 </summary>
+
+```c
+#include <stdio.h>
+int main() {
+  printf("Hello, world!");
+}
+```
+</details>
+
 #### 1.2 컴퓨터 하드웨어와 어셈블리
 
 1.2.1 하드웨어 설명
@@ -150,42 +236,3 @@ int main() {
 1.2.3.1.2 메모리
   
 </details>
-
-#### 1.3 조금 더 복잡한 C 프로그램: printf 써보기
-
-1.3.1 코드 설명
-
-<details>
-  <summary> 1.3.1.1 코드에서 쓰인 단어 </summary>  
-<br>
-
-1.3.1.1.1 #include  
-
-1.3.1.1.2 < >
-
-1.3.1.1.3 stdio.h
-
-1.3.1.1.4 printf
-
-1.3.1.1.5 " "
-  
-</details> 
-
-<details>
-  <summary> 1.3.1.2 코드에서 쓰인 문법 </summary> 
-<br>
-
-1.3.1.2.1 #include <stdio.h>
-
-1.3.1.2.2 printf("Hello world");
-  
-</details>
-
-<details>
-  <summary> 1.3.1.3 전체 코드 </summary>
-
-```c
-#include <s
-```
-</details>
-
