@@ -7,7 +7,7 @@
 1.1.1.1 코드 설명
 
 <details>
-  <summary> 1.1.1.1.1 코드에서 쓰인 문법 </summary>
+  <summary> 1.1.1.1.1 문법: 함수 정의, 반환 문장 </summary>
 <br>
   
 1.1.1.1.1.1 함수 정의: int main() { 내용 }
@@ -17,7 +17,7 @@
 </details>
 
 <details>
-  <summary> 1.1.1.1.2 코드에서 쓰인 단어 </summary>
+  <summary> 1.1.1.1.2 단어: int, main, ( ), { }, return, 0, ; </summary>
 <br>
 
 1.1.1.1.2.1 int
