@@ -363,10 +363,26 @@ gcc five.c main.c -o ex1.1.3.exe
 
 ```c
 #include <stdio.h>
+
+/* 화면에 Hello, world!를 출력하는 프로그램 */
 int main() {
   printf("Hello, world!");
 }
 ```
+</details>
+
+1.1.6.2 실습
+
+<details>
+  <summary> 1.1.6.2.1 GitHub 세팅하기 (내용 없음) </summary>
+<br>
+
+</details> 
+
+<details>
+  <summary> 1.1.6.2.2 코드 입력하고 실행하기 (내용 없음) </summary>
+<br>
+
 </details>
 
 #### 1.2 컴퓨터 하드웨어와 어셈블리
