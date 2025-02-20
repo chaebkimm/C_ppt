@@ -328,33 +328,37 @@ gcc five.c main.c -o ex1.1.3.exe
 </details>
 
 
-#### 1.1.6 조금 더 복잡한 C 프로그램: printf 써보기
+### 1.1.6 조금 더 복잡한 C 프로그램: printf 써보기
 
 1.1.6.1 코드 설명
 
 <details>
-  <summary> 1.1.6.1.1 코드에서 쓰인 문법 </summary> 
+  <summary> 1.1.6.1.1 문법: 지시, 문자열, printf 함수 </summary> 
 <br>
 
-1.1.6.1.1.1 #include <stdio.h>
+1.1.6.1.1.1 지시: #include <stdio.h>
 
-1.1.6.1.1.2 printf("Hello, world!");
+1.1.6.1.1.2 문자열: "Hello, world!"
+
+1.1.6.1.1.3 printf 함수: printf("Hello, world!");
   
 </details>
 
 <details>
-  <summary> 1.1.6.1.2 코드에서 쓰인 단어 </summary>
+  <summary> 1.1.6.1.2 단어: #, include, <, >, stdio.h, printf, " </summary>
 <br>
 
-1.1.6.1.2.1 #include  
+1.1.6.1.2.1 지시어: #
 
-1.1.6.1.2.2 < >
+1.1.6.1.2.1 include 지시어: #include  
 
-1.1.6.1.2.3 stdio.h
+1.1.6.1.2.2 라이브러리 폴더 의미: < >
 
-1.1.6.1.2.4 printf
+1.1.6.1.2.3 표준입출력 라이브러리: stdio.h
 
-1.1.6.1.2.5 " "
+1.1.6.1.2.4 출력 라이브러리 함수: printf
+
+1.1.6.1.2.5 문자열: " "
   
 </details> 
 
