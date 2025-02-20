@@ -193,38 +193,87 @@ int main() {
   <summary> 1.1.3.2.1 GitHub 세팅하기 </summary>
 <br>
 
-1.1.3.2.1.1 이전 내용 저장하기기
+1.1.3.2.1.1 이전 내용 저장하기
 
 1.1.3.2.1.1 브랜치 변경하기
 
 </details> 
 
 <details>
-  <summary> 1.1.2.2.2 코드 입력하기 </summary>
+  <summary> 1.1.3.2.2 코드 입력하기 </summary>
 <br>
 
-1.1.2.2.2.1 코드 입력하고 실행해보기
-
-1.1.2.2.2.2 에러, 경고 메시지 확인하기
-
-1.1.2.2.2.3 커밋 및 푸시하기
+1.1.3.2.2.1 주의할 점
 
 </details>
 
-### 1.1.4 소스 파일이 분리된 C 프로그램: 함수 선언하기
+### 1.1.4 함수가 정의되기 전에 쓰는 C 프로그램: 함수 선언하기
 
 1.1.4.1 코드 설명
 
 <details>
-  <summary> 1.1.4.1.1 문법 </summary>
+  <summary> 1.1.4.1.1 문법: 함수 선언 </summary>
 <br>
 
-1.1.4.1.1.1 int five();
+1.1.4.1.1.1 함수 선언: int five();
 
 </details> 
 
 <details>
   <summary> 1.1.4.1.2 코드에서 새로 쓰인 단어 없음 </summary>
+<br>
+
+</details> 
+
+<details open>
+  <summary> 1.1.4.1.3 전체 코드 </summary>
+<br>
+
+```c
+/* 5를 반환하는 함수 */
+int five();
+
+/* 5를 반환받아서 다시 반환한다 */
+int main() {
+  return five();
+}
+
+/* 5를 반환한다 */
+int five() {
+  return 5;
+}
+```
+</details> 
+
+1.1.4.2 실습
+
+<details>
+  <summary> 1.1.4.2.1 GitHub 세팅하기 (내용 없음) </summary>
+<br>
+
+</details> 
+
+<details>
+  <summary> 1.1.4.2.2 코드 입력하고 실행하기 </summary>
+<br>
+
+1.1.4.2.2.1 디버깅 기능으로 실행 순서 확인하기
+
+</details>
+
+
+### 1.1.5 소스 파일이 분리된 C 프로그램: 소스 파일 추가하기
+
+1.1.5.1 코드 설명
+
+<details>
+  <summary> 1.1.5.1.1 새로 쓰인 문법 없음 </summary>
+<br>
+
+</details> 
+
+<details>
+  <summary> 1.1.4.1.2 새로 쓰인 단어 없음 </summary>
 <br>
 
 </details> 
@@ -262,38 +311,55 @@ gcc five.c main.c -o ex1.1.3.exe
 ```
 </details> 
 
-#### 1.1.5 조금 더 복잡한 C 프로그램: printf 써보기
-
-1.1.5.1 코드 설명
+1.1.5.2 실습
 
 <details>
-  <summary> 1.1.5.1.1 코드에서 쓰인 문법 </summary> 
+  <summary> 1.1.5.2.1 GitHub 세팅하기 (내용 없음) </summary>
 <br>
 
-1.1.5.1.1.1 #include <stdio.h>
+</details> 
 
-1.1.5.1.1.2 printf("Hello, world!");
+<details>
+  <summary> 1.1.5.2.2 코드 입력하고 실행하기 </summary>
+<br>
+
+1.1.5.2.2.1 소스 파일 추가하기
+
+</details>
+
+
+#### 1.1.6 조금 더 복잡한 C 프로그램: printf 써보기
+
+1.1.6.1 코드 설명
+
+<details>
+  <summary> 1.1.6.1.1 코드에서 쓰인 문법 </summary> 
+<br>
+
+1.1.6.1.1.1 #include <stdio.h>
+
+1.1.6.1.1.2 printf("Hello, world!");
   
 </details>
 
 <details>
-  <summary> 1.1.5.1.2 코드에서 쓰인 단어 </summary>
+  <summary> 1.1.6.1.2 코드에서 쓰인 단어 </summary>
 <br>
 
-1.1.5.1.2.1 #include  
+1.1.6.1.2.1 #include  
 
-1.1.5.1.2.2 < >
+1.1.6.1.2.2 < >
 
-1.1.5.1.2.3 stdio.h
+1.1.6.1.2.3 stdio.h
 
-1.1.5.1.2.4 printf
+1.1.6.1.2.4 printf
 
-1.1.5.1.2.5 " "
+1.1.6.1.2.5 " "
   
 </details> 
 
 <details open>
-  <summary> 1.1.5.1.3 전체 코드 </summary>
+  <summary> 1.1.6.1.3 전체 코드 </summary>
 
 ```c
 #include <stdio.h>
