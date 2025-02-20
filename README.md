@@ -328,7 +328,7 @@ gcc five.c main.c -o ex1.1.3.exe
 </details>
 
 
-### 1.1.6 조금 더 복잡한 C 프로그램: printf 써보기
+### 1.1.6 라이브러리를 쓰는 C 프로그램: printf 써보기
 
 1.1.6.1 코드 설명
 
