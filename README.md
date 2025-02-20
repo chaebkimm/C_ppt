@@ -220,7 +220,7 @@ int main() {
 </details> 
 
 <details>
-  <summary> 1.1.4.1.2 코드에서 새로 쓰인 단어 없음 </summary>
+  <summary> 1.1.4.1.2 새로운 단어 없음 </summary>
 <br>
 
 </details> 
@@ -267,13 +267,13 @@ int five() {
 1.1.5.1 코드 설명
 
 <details>
-  <summary> 1.1.5.1.1 새로 쓰인 문법 없음 </summary>
+  <summary> 1.1.5.1.1 새로운 문법 없음 </summary>
 <br>
 
 </details> 
 
 <details>
-  <summary> 1.1.4.1.2 새로 쓰인 단어 없음 </summary>
+  <summary> 1.1.4.1.2 새로운 단어 없음 </summary>
 <br>
 
 </details> 
