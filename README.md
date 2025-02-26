@@ -55,7 +55,7 @@ C 프로그램은 함수라고 불리는 세부 코드들로 구성되어 있다
 </details>
 
 <details>
-  <summary> 1.1.1.1.3 단어: `int`, `main`, `(`, `)`, `{`, `}`, `return`, `0`, `;` </summary>
+  <summary> 1.1.1.1.3 단어: <code>int</code>, <code>main</code>, <code>(</code>, <code>)</code>, <code>{</code>, <code>}</code>, <code>return</code>, <code>0</code>, <code>;</code> </summary>
 <br>
 
 #### 1.1.1.1.3.1 `int`
