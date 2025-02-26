@@ -187,24 +187,8 @@ int main() {
 
 1.1.3.1 코드 설명
 
-<details>
-  <summary> 1.1.3.1.1 문법: 함수 실행 </summary>
-<br>
-
-1.1.3.1.1.1 함수 실행: five()
-
-</details> 
-
-<details>
-  <summary> 1.1.3.1.2 단어: 이름 </summary>
-<br>
-
-1.1.3.1.2.1 이름
-  
-</details> 
-
 <details open>
-  <summary> 1.1.3.1.3 전체 코드 </summary>
+  <summary> 1.1.3.1.1 전체 코드 </summary>
 <br>
 
 ```c
@@ -218,6 +202,24 @@ int main() {
   return five();
 }
 ```  
+</details> 
+
+
+<details>
+  <summary> 1.1.3.1.2 문법: 함수 실행 </summary>
+<br>
+
+#### 1.1.3.1.2.1 함수 실행 수식: `함수이름 ( 입력값 )`
+
+함수 실행 수식은 `함수이름`에 해당하는 함수를 `입력값`을 써서 실행한다. 
+해당 함수가 결과값을 반환하는 함수면 반환받은 값이 함수 실행 후 수식의 값이 된다. 
+
+</details> 
+
+<details>
+  <summary> 1.1.3.1.3 단어: 없음 </summary>
+<br>
+
 </details> 
 
 1.1.3.2 실습
@@ -240,33 +242,19 @@ int main() {
 
 </details>
 
-### 1.1.4 함수가 정의되기 전에 쓰는 C 프로그램: 함수 선언하기
+### 1.1.4 함수 선언
 
 1.1.4.1 코드 설명
 
-<details>
-  <summary> 1.1.4.1.1 문법: 함수 선언 </summary>
-<br>
-
-1.1.4.1.1.1 함수 선언: int five();
-
-</details> 
-
-<details>
-  <summary> 1.1.4.1.2 새로운 단어 없음 </summary>
-<br>
-
-</details> 
-
 <details open>
-  <summary> 1.1.4.1.3 전체 코드 </summary>
+  <summary> 1.1.4.1.1 전체 코드 </summary>
 <br>
 
 ```c
 /* 5를 반환하는 함수 */
 int five();
 
-/* 5를 반환받아서 다시 반환한다 */
+/* five() 실행 결과를 반환한다 */
 int main() {
   return five();
 }
@@ -276,6 +264,23 @@ int five() {
   return 5;
 }
 ```
+</details> 
+
+<details>
+  <summary> 1.1.4.1.2 문법: 함수 선언 </summary>
+<br>
+
+#### 1.1.4.1.2.1 함수 선언: `결과값종류 함수이름 ( 입력값 ) ;`
+
+선언이라는 것은 이름에 의미를 부여하는 것이다 [3.5](https://port70.net/~nsz/c/c89/c89-draft.html#3.5). 
+
+
+</details> 
+
+<details>
+  <summary> 1.1.4.1.3 새로운 단어 없음 </summary>
+<br>
+
 </details> 
 
 1.1.4.2 실습
